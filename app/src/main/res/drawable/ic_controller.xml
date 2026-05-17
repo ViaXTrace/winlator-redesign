@@ -11,15 +11,16 @@
         android:fillAlpha="0.2"
         android:strokeColor="@android:color/white"
         android:strokeWidth="1.5" />
-    <path android:fillColor="@android:color/white"
+    <path android:fillColor="#00000000"
         android:pathData="M7,10 L7,14 M5,12 L9,12"
         android:strokeColor="@android:color/white"
-        android:strokeWidth="2"
-        android:fillColor="#00000000" />
+        android:strokeWidth="2" />
     <path android:fillColor="@android:color/white"
         android:pathData="M15,10 C15,10.55 14.55,11 14,11 C13.45,11 13,10.55 13,10 C13,9.45 13.45,9 14,9 C14.55,9 15,9.45 15,10 Z" />
     <path android:fillColor="@android:color/white"
         android:pathData="M18,13 C18,13.55 17.55,14 17,14 C16.45,14 16,13.55 16,13 C16,12.45 16.45,12 17,12 C17.55,12 18,12.45 18,13 Z" />
-    <path android:fillColor="@android:color/white"
-        android:pathData="M12,14 L12,16" android:strokeColor="@android:color/white" android:strokeWidth="2" android:fillColor="#00000000" />
+    <path android:fillColor="#00000000"
+        android:pathData="M12,14 L12,16"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="2" />
 </vector>

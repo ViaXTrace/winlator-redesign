@@ -65,7 +65,7 @@ class ContainerAdapter(
     }
 
     class DiffCallback : DiffUtil.ItemCallback<Container>() {
-        override fun areItemsSame(oldItem: Container, newItem: Container) =
+        override fun areItemsTheSame(oldItem: Container, newItem: Container) =
             oldItem.id == newItem.id
         override fun areContentsTheSame(oldItem: Container, newItem: Container) =
             oldItem == newItem

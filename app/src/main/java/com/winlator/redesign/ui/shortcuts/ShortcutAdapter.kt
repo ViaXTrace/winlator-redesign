@@ -36,7 +36,7 @@ class ShortcutAdapter(
     }
 
     class DiffCallback : DiffUtil.ItemCallback<Shortcut>() {
-        override fun areItemsSame(oldItem: Shortcut, newItem: Shortcut) = oldItem.id == newItem.id
+        override fun areItemsTheSame(oldItem: Shortcut, newItem: Shortcut) = oldItem.id == newItem.id
         override fun areContentsTheSame(oldItem: Shortcut, newItem: Shortcut) = oldItem == newItem
     }
 }

@@ -8,7 +8,7 @@
         <item name="colorOnSecondary">@color/color_text_primary</item>
         <item name="colorSurface">@color/color_bg_card</item>
         <item name="colorOnSurface">@color/color_text_primary</item>
-        <item name="colorBackground">@color/color_bg_primary</item>
+        <item name="android:colorBackground">@color/color_bg_primary</item>
         <item name="colorOnBackground">@color/color_text_primary</item>
         <item name="colorError">@color/color_accent_red</item>
         <item name="colorOnError">@color/color_text_primary</item>
@@ -24,7 +24,6 @@
     <style name="Theme.Winlator.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/color_bg_primary</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_logo</item>
-        <item name="windowSplashScreenBrandingImage">@drawable/ic_app_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.Winlator</item>
     </style>
 
@@ -100,7 +99,7 @@
         <item name="strokeColor">@color/color_glass_border_accent</item>
     </style>
 
-    <style name="WinlatorFAB" parent="Widget.Material3.FloatingActionButton.Large">
+    <style name="WinlatorFAB" parent="Widget.Material3.FloatingActionButton.Primary">
         <item name="backgroundTint">@color/color_accent_cyan</item>
         <item name="tint">@color/color_bg_primary</item>
         <item name="elevation">0dp</item>

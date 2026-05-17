@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Winlator" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/color_accent_cyan</item>
+        <item name="colorPrimaryVariant">@color/color_accent_cyan_dark</item>
+        <item name="colorOnPrimary">@color/color_text_on_accent</item>
+        <item name="colorSecondary">@color/color_accent_purple</item>
+        <item name="colorOnSecondary">@color/color_text_primary</item>
+        <item name="colorSurface">@color/color_bg_card</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="colorBackground">@color/color_bg_primary</item>
+        <item name="colorOnBackground">@color/color_text_primary</item>
+        <item name="colorError">@color/color_accent_red</item>
+        <item name="colorOnError">@color/color_text_primary</item>
+        <item name="android:windowBackground">@color/color_bg_primary</item>
+        <item name="android:statusBarColor">@color/color_transparent</item>
+        <item name="android:navigationBarColor">@color/color_bg_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialAlertDialogTheme">@style/Theme.Winlator.Dialog</item>
+    </style>
+
+    <style name="Theme.Winlator.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/color_bg_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_logo</item>
+        <item name="windowSplashScreenBrandingImage">@drawable/ic_app_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Winlator</item>
+    </style>
+
+    <style name="Theme.Winlator.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:background">@color/color_bg_card</item>
+        <item name="colorSurface">@color/color_bg_card</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="colorPrimary">@color/color_accent_cyan</item>
+        <item name="android:windowBackground">@drawable/bg_glass_card</item>
+    </style>
+
+    <style name="WinlatorText.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="WinlatorText.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WinlatorText.Body" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WinlatorText.Caption" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/color_text_tertiary</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="WinlatorText.Accent" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/color_accent_cyan</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="WinlatorButton.Primary" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_glass_button_primary</item>
+        <item name="android:textColor">@color/color_bg_primary</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="WinlatorButton.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:background">@drawable/bg_glass_button_secondary</item>
+        <item name="android:textColor">@color/color_accent_cyan</item>
+        <item name="strokeColor">@color/color_glass_border_accent</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="WinlatorCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/color_glass_surface</item>
+        <item name="strokeColor">@color/color_glass_border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <style name="WinlatorCard.Elevated" parent="WinlatorCard">
+        <item name="cardBackgroundColor">@color/color_glass_elevated</item>
+        <item name="strokeColor">@color/color_glass_border_accent</item>
+    </style>
+
+    <style name="WinlatorFAB" parent="Widget.Material3.FloatingActionButton.Large">
+        <item name="backgroundTint">@color/color_accent_cyan</item>
+        <item name="tint">@color/color_bg_primary</item>
+        <item name="elevation">0dp</item>
+        <item name="hoveredFocusedTranslationZ">0dp</item>
+        <item name="pressedTranslationZ">0dp</item>
+    </style>
+
+    <style name="WinlatorChip" parent="Widget.Material3.Chip.Filter">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="chipBackgroundColor">@color/color_glass_surface</item>
+        <item name="chipStrokeColor">@color/color_glass_border</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="WinlatorBottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="android:background">@drawable/bg_glass_card</item>
+        <item name="backgroundTint">@color/color_bg_card</item>
+    </style>
+</resources>

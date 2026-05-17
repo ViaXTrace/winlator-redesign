@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Winlator</string>
+    <string name="app_version">1.0.0</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_containers">Containers</string>
+    <string name="nav_shortcuts">Shortcuts</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Winlator</string>
+    <string name="dashboard_subtitle">Windows Compatibility Layer</string>
+    <string name="dashboard_containers">Containers</string>
+    <string name="dashboard_shortcuts">Shortcuts</string>
+    <string name="dashboard_active">Active</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="dashboard_new_container">New Container</string>
+    <string name="dashboard_add_shortcut">Add Shortcut</string>
+    <string name="dashboard_welcome">Welcome back</string>
+    <string name="dashboard_ready">System Ready</string>
+    <string name="dashboard_system_info">System Info</string>
+    <string name="dashboard_wine_version">Wine Version</string>
+    <string name="dashboard_box64_version">Box64 Version</string>
+    <string name="dashboard_rootfs_version">RootFS Version</string>
+    <string name="dashboard_gpu_driver">GPU Driver</string>
+
+    <!-- Containers -->
+    <string name="containers_title">Containers</string>
+    <string name="containers_empty">No containers yet</string>
+    <string name="containers_empty_sub">Create your first Windows environment</string>
+    <string name="container_create">Create Container</string>
+    <string name="container_launch">Launch</string>
+    <string name="container_settings">Settings</string>
+    <string name="container_clone">Clone</string>
+    <string name="container_delete">Delete</string>
+    <string name="container_delete_confirm">Delete this container?</string>
+    <string name="container_delete_confirm_sub">This action cannot be undone. All data in this container will be permanently deleted.</string>
+    <string name="container_name">Container Name</string>
+    <string name="container_screen_size">Screen Resolution</string>
+    <string name="container_graphics_driver">Graphics Driver</string>
+    <string name="container_dxwrapper">DirectX Wrapper</string>
+    <string name="container_audio_driver">Audio Driver</string>
+    <string name="container_box64_preset">Box64 Preset</string>
+    <string name="container_wine_version">Wine Version</string>
+    <string name="container_cpu_list">CPU Affinity</string>
+    <string name="container_env_vars">Environment Variables</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcuts_title">Shortcuts</string>
+    <string name="shortcuts_empty">No shortcuts yet</string>
+    <string name="shortcuts_empty_sub">Add games and applications</string>
+    <string name="shortcut_add">Add Shortcut</string>
+    <string name="shortcut_launch">Launch</string>
+    <string name="shortcut_edit">Edit</string>
+    <string name="shortcut_delete">Delete</string>
+
+    <!-- Input Controls -->
+    <string name="controls_title">Input Controls</string>
+    <string name="controls_empty">No profiles found</string>
+    <string name="controls_create">Create Profile</string>
+    <string name="controls_edit">Edit Profile</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_performance">Performance</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="settings_about">About</string>
+    <string name="settings_theme">App Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_show_fps">Show FPS Counter</string>
+    <string name="settings_box64_logs">Box64 Log Level</string>
+    <string name="settings_wine_debug">Enable Wine Debug</string>
+    <string name="settings_save_logs">Save Logs to File</string>
+    <string name="settings_about_version">Version %s</string>
+    <string name="settings_open_source">Open Source</string>
+    <string name="settings_licenses">Third-party Licenses</string>
+    <string name="settings_github">GitHub Repository</string>
+    <string name="settings_contributors">Contributors</string>
+    <string name="settings_donate">Support Development</string>
+    <string name="settings_cursor_color">Cursor Color</string>
+    <string name="settings_cursor_scale">Cursor Scale</string>
+    <string name="settings_shortcuts_first">Show Shortcuts First</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_create">Create</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_close">Close</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="search_hint">Search…</string>
+    <string name="all">All</string>
+    <string name="none">None</string>
+
+    <!-- Container Detail -->
+    <string name="detail_general">General</string>
+    <string name="detail_graphics">Graphics</string>
+    <string name="detail_audio">Audio</string>
+    <string name="detail_advanced">Advanced</string>
+
+    <!-- Box64 Presets -->
+    <string-array name="box64_presets">
+        <item>Stability</item>
+        <item>Conservative</item>
+        <item>Intermediate</item>
+        <item>Performance</item>
+        <item>Custom</item>
+    </string-array>
+
+    <!-- Graphics Drivers -->
+    <string-array name="vulkan_drivers">
+        <item>Vortek</item>
+        <item>Turnip</item>
+    </string-array>
+
+    <string-array name="opengl_drivers">
+        <item>Gladio</item>
+        <item>Zink</item>
+        <item>VirGL</item>
+    </string-array>
+
+    <!-- DX Wrappers -->
+    <string-array name="dx_wrappers">
+        <item>DXVK</item>
+        <item>VKD3D</item>
+        <item>WineD3D</item>
+        <item>CNC DDraw</item>
+    </string-array>
+</resources>

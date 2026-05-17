@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep Space Backgrounds -->
+    <color name="color_bg_primary">#0A0E27</color>
+    <color name="color_bg_secondary">#0F1B45</color>
+    <color name="color_bg_tertiary">#1A0A3C</color>
+    <color name="color_bg_card">#12142E</color>
+
+    <!-- Glass Surfaces -->
+    <color name="color_glass_surface">#15FFFFFF</color>
+    <color name="color_glass_elevated">#20FFFFFF</color>
+    <color name="color_glass_border">#2AFFFFFF</color>
+    <color name="color_glass_border_accent">#4000E5FF</color>
+    <color name="color_glass_pressed">#30FFFFFF</color>
+    <color name="color_glass_disabled">#08FFFFFF</color>
+
+    <!-- Electric Accents -->
+    <color name="color_accent_cyan">#00E5FF</color>
+    <color name="color_accent_cyan_dark">#00B0CC</color>
+    <color name="color_accent_cyan_alpha">#4000E5FF</color>
+    <color name="color_accent_purple">#7C4DFF</color>
+    <color name="color_accent_purple_dark">#5C35CC</color>
+    <color name="color_accent_purple_alpha">#407C4DFF</color>
+    <color name="color_accent_green">#00FF88</color>
+    <color name="color_accent_green_alpha">#4000FF88</color>
+    <color name="color_accent_orange">#FF6D00</color>
+    <color name="color_accent_red">#FF1744</color>
+    <color name="color_accent_red_alpha">#40FF1744</color>
+    <color name="color_accent_amber">#FFB300</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#FFFFFFFF</color>
+    <color name="color_text_secondary">#B3B0BEC5</color>
+    <color name="color_text_tertiary">#80FFFFFF</color>
+    <color name="color_text_hint">#4DFFFFFF</color>
+    <color name="color_text_on_accent">#FF000000</color>
+
+    <!-- System -->
+    <color name="color_divider">#1AFFFFFF</color>
+    <color name="color_ripple">#2000E5FF</color>
+    <color name="color_scrim">#CC000000</color>
+    <color name="color_transparent">#00000000</color>
+
+    <!-- Status -->
+    <color name="color_status_running">#00FF88</color>
+    <color name="color_status_stopped">#546E7A</color>
+    <color name="color_status_error">#FF1744</color>
+
+    <!-- Material required -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

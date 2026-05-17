@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_glass_card"
+    android:padding="24dp">
+
+    <!-- Dialog header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+
+        <FrameLayout
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_glass_chip">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_containers"
+                android:tint="@color/color_accent_cyan"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/container_create"
+            android:textColor="@color/color_text_primary"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="14dp" />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_glass_chip"
+            android:src="@drawable/ic_close"
+            android:padding="6dp"
+            android:contentDescription="@string/dialog_close" />
+    </LinearLayout>
+
+    <!-- Name field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/container_name"
+        app:boxBackgroundColor="#15FFFFFF"
+        app:boxStrokeColor="@color/color_glass_border"
+        app:hintTextColor="@color/color_text_secondary"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_container_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_primary"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Screen Size -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_screen_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/container_screen_size"
+        app:boxBackgroundColor="#15FFFFFF"
+        app:boxStrokeColor="@color/color_glass_border"
+        app:hintTextColor="@color/color_text_secondary"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="dropdown_menu"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_screen_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_primary"
+            android:text="1280x720" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Graphics Driver -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_graphics_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/container_graphics_driver"
+        app:boxBackgroundColor="#15FFFFFF"
+        app:boxStrokeColor="@color/color_glass_border"
+        app:hintTextColor="@color/color_text_secondary"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="dropdown_menu"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_graphics_driver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_primary"
+            android:text="Vortek + Gladio" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- DX Wrapper -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_dxwrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/container_dxwrapper"
+        app:boxBackgroundColor="#15FFFFFF"
+        app:boxStrokeColor="@color/color_glass_border"
+        app:hintTextColor="@color/color_text_secondary"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="dropdown_menu"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_dxwrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_primary"
+            android:text="DXVK" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Action buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/WinlatorButton.Secondary"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/dialog_cancel" />
+
+        <Button
+            android:id="@+id/btn_create"
+            style="@style/WinlatorButton.Primary"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog_create" />
+    </LinearLayout>
+
+</LinearLayout>

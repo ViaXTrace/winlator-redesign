@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.winlator.redesign.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_containers"
+        android:name="com.winlator.redesign.ui.containers.ContainersFragment"
+        android:label="@string/nav_containers" />
+
+    <fragment
+        android:id="@+id/navigation_shortcuts"
+        android:name="com.winlator.redesign.ui.shortcuts.ShortcutsFragment"
+        android:label="@string/nav_shortcuts" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.winlator.redesign.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+</navigation>

@@ -1,0 +1,5 @@
+-keep class com.winlator.redesign.data.model.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
+-keep @androidx.room.Entity class * { *; }
+-keep @androidx.room.Dao interface * { *; }
+-dontwarn org.slf4j.**

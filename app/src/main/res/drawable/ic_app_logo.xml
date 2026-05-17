@@ -27,13 +27,13 @@
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M38,40 L43,60 L48,48 L54,60 L59,48 L64,60 L70,40 L66,40 L62,55 L57,42 L54,54 L51,42 L46,55 L42,40 Z" />
-    <!-- Cyan accent lines -->
-    <line
-        android:x1="26" android:y1="48"
-        android:x2="82" android:y2="48"
+    <!-- Cyan accent line -->
+    <path
+        android:fillColor="#00000000"
         android:strokeColor="#00E5FF"
         android:strokeWidth="0.5"
-        android:strokeAlpha="0.3" />
+        android:strokeAlpha="0.3"
+        android:pathData="M26,48 L82,48" />
     <!-- Corner accents -->
     <path
         android:fillColor="#7C4DFF"
